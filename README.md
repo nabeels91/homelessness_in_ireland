@@ -38,10 +38,12 @@ Once this is complete we can see the Homelessness Report.xlsx
 
 ## Next we import data into to google sheets 
 this can be see in the image below:
-![]()
+![Gsheets](https://github.com/nabeels91/homelessness_in_ireland/blob/main/Gsheets.png)
 
 ## Connecting to tableau public:
 this is very simple in tableau. In the connect pan we pick connect to a server: google Drive and specify the location when prompted after entering your google credentials.
+the data will look as follows:
+![tableau](https://github.com/nabeels91/homelessness_in_ireland/blob/main/Tableau%20import.png)
 
 
 
