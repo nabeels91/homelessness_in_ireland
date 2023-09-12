@@ -1,6 +1,25 @@
 # homelessness_in_ireland
+
+## Purpose
+Ireland is currently experience its worst housing crisis in its 107 year history Infact the number of homeless people currently in ireland is worse than those recorded during and after the great famine of the 1850's [housing crisis](https://www.euronews.com/2023/07/06/irelands-housing-crisis-millennials-a-generation-sacrificed#:~:text=The%20housing%20crisis%20in%20Ireland,in%20the%20mid%2D19th%20century).
+
+In these unprecedented cicumstances we find ourselves in, it is vital to raise awarness and do what we can to fix this impending disaster situation.
+Currently there are estimated 12'847 homeless people in ireland the grate majority being in dublin. 
+[Link](https://homelessnessinireland.ie/#:~:text=Homelessness%20is%20an%20issue%20experienced,accessing%20emergency%20accommodation%20in%20Ireland.)
+
+This is due to massive shortages in available rooms and properties, coupled with greed of property owners, who prefer cash payments as not to pay tax, and if a tenent is to report them they face getting evicted and evicting the other people suffering with them and living in the squalid conditions some stay in. The RTB, Threshold, citizens information are all powerless to this loophole and thus nothing will change until the government steps in and takes care of the citizens of the Ireland first to ensure the people born and raised here are taken care of for their effort to set up and grow in this, most beautiful country in the world.
+
+## approach
+
+1. Connecting to api using python
+2. Gather the data into a csv file
+3. Clean dataa in google sheets
+4. Link data to tableau for visualization
+
+
+## connecting to the APi and extracting data
 Connecting to the data.gov.ie api and analysing data related to the homeless pandemic we are currently facing.
-I did this with a combination of Python to gather the data, google sheets to store the data online to connect to the tableau for anlayzing and visualing. 
+I did this with a combination of Python to gather the data, google sheets to store the data online to connect to the tableau for anlayzing and visualing.
 
 
 ## Gathering of the Data
@@ -34,29 +53,35 @@ out.to_excel('Homelessness Report.xlsx', index=False)
 
 ```
 
-[tableau image](homelessness_in_ireland/Tableau import.png)
-
-
-
-Once this is complete we can see the Homelessness Report.xlsx
+Once this is complete and run it will produce a file called Homelessness Report.xlsx
+Ensure that the data is cleanesed 
 
 ## Next we import data into to google sheets 
-this can be see in the image below:
+
+This can be see in the image below:
 ![Gsheets](https://github.com/nabeels91/homelessness_in_ireland/blob/main/Gsheets.png)
 
+
 ## Connecting to tableau public:
-this is very simple in tableau. In the connect pan we pick connect to a server: google Drive and specify the location when prompted after entering your google credentials.
-the data will look as follows:
+
+In the connect pane we pick connect to a server: google Drive and specify the location when prompted after entering your google credentials.
+The data will look as follows in Tableau:
 ![tableau](https://github.com/nabeels91/homelessness_in_ireland/blob/main/Tableau%20import.png)
 
+## Worksheets:
 
-## ensuring the correct display of the regions
+## Ensuring the correct display of the regions
 We use the following to ensure that the regions surveyed by the government source of our data and the tableau mapping are in line so we can correctly use the map graphing feature in Tableau.
-https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Ireland
-any edits that need to be made should. I had to add regions into the map manually. check and correct.
+
+[nuts_regions](https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Ireland)
+
+Any edits that need to be made should be done . I added missing regions into the map manually. check and correct.
 ![editing map](https://github.com/nabeels91/homelessness_in_ireland/blob/main/editing%20map.png)
 
-![map](https://github.com/nabeels91/homelessness_in_ireland/blob/main/map.png)
+
+## Dashboard creation
+[dashoboard creation](https://public.tableau.com/app/profile/nabeel4512/viz/HomelessnessinIreland/homelessnessinIreland?publish=yes)
+
 
 
 
