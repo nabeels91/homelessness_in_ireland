@@ -87,9 +87,9 @@ Any edits that need to be made should be done . I added missing regions into the
 
 
 ## Dashboard creation
-[dashoboard creation](https://public.tableau.com/app/profile/nabeel4512/viz/HomelessnessinIreland/homelessnessinIreland?publish=yes)
+[Online dashoboard from tableau public on my computer to tableau public online](https://public.tableau.com/app/profile/nabeel4512/viz/HomelessnessinIreland/homelessnessinIreland?publish=yes)
 
-[Dashboard](url)
+[Dashboard](https://github.com/nabeels91/homelessness_in_ireland/blob/main/dashboard.png)
 
 
 
