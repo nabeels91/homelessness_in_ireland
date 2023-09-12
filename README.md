@@ -46,5 +46,15 @@ the data will look as follows:
 ![tableau](https://github.com/nabeels91/homelessness_in_ireland/blob/main/Tableau%20import.png)
 
 
+## ensuring the correct display of the regions
+We use the following to ensure that the regions surveyed by the government source of our data and the tableau mapping are in line so we can correctly use the map graphing feature in Tableau.
+https://en.wikipedia.org/wiki/NUTS_statistical_regions_of_Ireland
+any edits that need to be made should. I had to add regions into the map manually. check and correct.
+![editing map](link)
+
+![map](link)
+
+
+
 
 
