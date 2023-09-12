@@ -1,18 +1,18 @@
 # homelessness_in_ireland
 
 ## Purpose
-Ireland is currently experience its worst housing crisis in its 107 year history Infact the number of homeless people currently in ireland is worse than those recorded during and after the great famine of the 1850's [housing crisis](https://www.euronews.com/2023/07/06/irelands-housing-crisis-millennials-a-generation-sacrificed#:~:text=The%20housing%20crisis%20in%20Ireland,in%20the%20mid%2D19th%20century).
+Ireland is currently experience its worst housing crisis in its 107 year history. Infact the number of homeless people currently in ireland is worse than those recorded during and after the great famine of the 1850's [housing crisis](https://www.euronews.com/2023/07/06/irelands-housing-crisis-millennials-a-generation-sacrificed#:~:text=The%20housing%20crisis%20in%20Ireland,in%20the%20mid%2D19th%20century).
 
-In these unprecedented cicumstances we find ourselves in, it is vital to raise awarness and do what we can to fix this impending disaster situation.
+In these unprecedented cicumstances we find ourselves in, it is vital to raise awareness and do what we can to fix this impending disaster situation.
 Currently there are estimated 12'847 homeless people in ireland the grate majority being in dublin. 
 [Link](https://homelessnessinireland.ie/#:~:text=Homelessness%20is%20an%20issue%20experienced,accessing%20emergency%20accommodation%20in%20Ireland.)
 
-This is a multifaceted issue but in my opinion is mainly due to massive shortages in available rooms and properties, coupled with greed of property owners. From personal experience, some landlords prefer cash payments as not to pay tax, and if a tenent is to report them they face getting evicted and evicting the other people suffering with them and living in the squalid conditions some stay in. The RTB, Threshold, citizens information are all powerless to this loophole and thus nothing will change until the government steps in and takes care of the citizens of the Ireland first to ensure the people born and raised here are taken care of for their effort to set up and grow in this, most beautiful country in the world.
+This is a multifaceted issue but in my opinion is mainly due to massive shortages in available rooms and properties, coupled with greed of property owners. From personal experience, some landlords prefer cash payments as not to pay tax, and if a tenent is to report them they face getting evicted and evicting the other people suffering with them and living in the squalid conditions some stay in. The RTB, Threshold, citizens information are all powerless to this loophole, with no entitlements or ability to claim any of their govenrmental credits because they have no proof of residence. Nothing will change until the government steps in and clamps down on these uncompassionate owners, takes care of the citizens of the Ireland first to ensure the people born and raised here are taken care of for their efforts to set up and grow and stay in this beautiful country.
 
 ### limitation in my analysis
 
-1. The data source has some missing data, for childern numbers there are whole year gaps in the data, so it would be difficult to represent any trend. This is also the case for the homeless passport status, weather Irish, European or non-european citizen. they are therefore omitted from analysis.
-2. we only have data that dates back to 2019. This is a govenment resource and i have not been able to find any more complete source.
+1. The data source has some missing data, for childern numbers there are whole year gaps in the data, so it would be difficult to represent any trend. This is also the case for the homeless passport status, weather Irish, European or non-european citizen. they are therefore omitted from any analysis.
+2. We only have data that dates back to 2019. This is a govenment resource and I have not been able to source  anything more complete.
 
    
 ## approach
