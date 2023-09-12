@@ -34,7 +34,8 @@ out.to_excel('Homelessness Report.xlsx', index=False)
 
 ```
 
-[tableau image](/Tableau import.png)
+[tableau image](homelessness_in_ireland/Tableau import.png)
+
 
 
 Once this is complete we can see the Homelessness Report.xlsx
