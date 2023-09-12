@@ -34,6 +34,9 @@ out.to_excel('Homelessness Report.xlsx', index=False)
 
 ```
 
+[tableau image](/Tableau import.png)
+
+
 Once this is complete we can see the Homelessness Report.xlsx
 
 ## Next we import data into to google sheets 
