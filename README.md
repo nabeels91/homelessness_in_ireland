@@ -7,13 +7,19 @@ In these unprecedented cicumstances we find ourselves in, it is vital to raise a
 Currently there are estimated 12'847 homeless people in ireland the grate majority being in dublin. 
 [Link](https://homelessnessinireland.ie/#:~:text=Homelessness%20is%20an%20issue%20experienced,accessing%20emergency%20accommodation%20in%20Ireland.)
 
-This is due to massive shortages in available rooms and properties, coupled with greed of property owners, who prefer cash payments as not to pay tax, and if a tenent is to report them they face getting evicted and evicting the other people suffering with them and living in the squalid conditions some stay in. The RTB, Threshold, citizens information are all powerless to this loophole and thus nothing will change until the government steps in and takes care of the citizens of the Ireland first to ensure the people born and raised here are taken care of for their effort to set up and grow in this, most beautiful country in the world.
+This is a multifaceted issue but in my opinion is mainly due to massive shortages in available rooms and properties, coupled with greed of property owners. From personal experience, some landlords prefer cash payments as not to pay tax, and if a tenent is to report them they face getting evicted and evicting the other people suffering with them and living in the squalid conditions some stay in. The RTB, Threshold, citizens information are all powerless to this loophole and thus nothing will change until the government steps in and takes care of the citizens of the Ireland first to ensure the people born and raised here are taken care of for their effort to set up and grow in this, most beautiful country in the world.
 
+### limitation in my analysis
+
+1. The data source has some missing data, for childern numbers there are whole year gaps in the data, so it would be difficult to represent any trend. This is also the case for the homeless passport status, weather Irish, European or non-european citizen. they are therefore omitted from analysis.
+2. we only have data that dates back to 2019. This is a govenment resource and i have not been able to find any more complete source.
+
+   
 ## approach
 
 1. Connecting to api using python
 2. Gather the data into a csv file
-3. Clean dataa in google sheets
+3. Clean data in google sheets
 4. Link data to tableau for visualization
 
 
@@ -26,6 +32,7 @@ I did this with a combination of Python to gather the data, google sheets to sto
 The data is taken from: 'https://data.gov.ie/dataset?sort=score+desc%2C+metadata_created+desc&q=homelessness&theme=Housing'
 
 We can connect to the api directly from the HTTPs using the following code:
+
 ```
 # To gather all the relevent data for analysis:
 # 1. Query the database
@@ -81,6 +88,8 @@ Any edits that need to be made should be done . I added missing regions into the
 
 ## Dashboard creation
 [dashoboard creation](https://public.tableau.com/app/profile/nabeel4512/viz/HomelessnessinIreland/homelessnessinIreland?publish=yes)
+
+[Dashboard](url)
 
 
 
